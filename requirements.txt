@@ -7,3 +7,5 @@ numpy==2.0.2
 retina-face==0.0.17
 opencv-python==4.11.0.86
 opencv-python-headless
+tensorflow==2.15
+tf-keras
