@@ -43,7 +43,7 @@ st.markdown(
 st.markdown('<div class="title">Footballer Classification</div>', unsafe_allow_html=True)
 st.markdown('<div class="header">Upload an image to classify it as Cristiano Ronaldo, Lionel Messi and Neymar.</div>', unsafe_allow_html=True)
 
-file = st.file_uploader('Upload an Image',type = ['jpg','jpeg','png','jfif'])
+file = st.file_uploader('',type = ['jpg','jpeg','png','jfif'])
 
 model = torch.load('Model/best_model.pth',map_location=torch.device('cpu'))
 model.eval()  # Set to evaluation mode
