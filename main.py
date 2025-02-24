@@ -45,7 +45,7 @@ st.markdown('<div class="header">Upload an image to classify it as Cristiano Ron
 
 file = st.file_uploader('',type = ['jpg','jpeg','png','jfif'])
 
-model = torch.load('Model/best_model.pth',map_location=torch.device('cpu'))
+model = torch.jit.load('Model/best_model.pth',map_location=torch.device('cpu'))
 model.eval()  # Set to evaluation mode
 
 class_names = {0:'Cristiano Ronaldo', 1:'Lionel Messi', 2:'Neymar'}
