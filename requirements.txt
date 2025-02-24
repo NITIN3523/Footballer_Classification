@@ -1,6 +1,6 @@
-torch==2.5.1
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+streamlit
 streamlit==1.42.1
 pillow==11.1.0
-torchvision==0.20.1
 numpy==2.0.2
 retina-face==0.0.17
