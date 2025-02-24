@@ -6,3 +6,4 @@ torchvision==0.20.1
 numpy==2.0.2
 retina-face==0.0.17
 opencv-python-headless
+tf-keras
