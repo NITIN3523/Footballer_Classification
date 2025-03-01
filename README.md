@@ -4,11 +4,11 @@ An end-to-end deep learning project for classifying footballers based on their f
 
 ## 🚀 Project Overview
 
-🔹 **Data Collection & Preprocessing** 📂
-🔹 **Face Detection & Cropping** (RetinaFace) 🖼️
-🔹 **CNN Model Training & Evaluation** 🏋️
-🔹 **Model Optimization & Fine-Tuning** 🔄
-🔹 **Deploying the Model using Streamlit** 🌐
+🔹 **Data Collection & Preprocessing** 📂        
+🔹 **Face Detection & Cropping** (RetinaFace) 🖼️      
+🔹 **CNN Model Training & Evaluation** 🏋️      
+🔹 **Model Optimization & Fine-Tuning** 🔄     
+🔹 **Deploying the Model using Streamlit** 🌐     
 
 ## 🛠️ Technologies Used
 
